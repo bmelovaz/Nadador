@@ -21,9 +21,11 @@ rl.question('Dígite a idade do nadador: ', (idadeInput) => {
             console.log('Você é da categoria Juvenil B')
         } else if (idade >= 16 && idade <= 18) {
             console.log('Você é da categoria Adulto')
+        } else {
+            console.log('Sua idade não tem categoria')
         }
      } else {
-        console.log('Digite somente números')
+        console.log('Dígite somente números!')
     }
 
     rl.close()
